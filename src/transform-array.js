@@ -1,4 +1,9 @@
-module.exports = function transform(/* arr */) {
-    throw 'Not implemented';
-    // remove line with error and write your code here
+module.exports = function transform(arr) {
+    function sss(arr) {
+        let sequence = arr.find(el => typeof(el) === 'string');
+        if (sequence) {
+            let sequenceIndex
+            arr[(arr.indexOf(sequence) + 1)]
+        }
+    }
 };
